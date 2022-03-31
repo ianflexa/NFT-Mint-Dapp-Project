@@ -21,7 +21,6 @@ Before start, you need to install some dependencies
 6. `npm install react-icons --save`
 7. `npm i react-scroll`
 8. `npm i react-router-dom`
-9. 
 
 # Hardhat
 
@@ -37,5 +36,11 @@ Before start, you need to install some dependencies
 10. Copy the lines inside `scripts/deploy.js`
 11. if everything is installed correctly, and you have copied the ``nft.sol`` file, you can run ``npx hardhat run scripts/deploy.js`` or ``npx hardhat run scripts/deploy.js --network rinkeby``if you want to do on testnet
 12. To verify on testnet use ``npx hardhat verify ADDRESS_OF_CONTRACT --network rinkeby "MaxSupply of collection" "number that started  the nft collection"
+13. After deploy, copy the lines inside ``artifacts/contracts/yourcontract.json`` and paste on your react app on ``blockchain`` folder, paste inside the ``abi.json`` file.
+14. Change the contract address with your ``ADDRESS_OF_CONTRACT`` inside the ``config.js`` file.
+
+
+# Run
+``npm run start`` 
 
 
