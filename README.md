@@ -7,6 +7,8 @@ A mint web3 page for an nft collection I created called Rea1
 
 ![preview1](https://user-images.githubusercontent.com/85500650/161134749-71274231-a256-4630-a787-6b94c53ed98d.PNG)
 
+![preview3](https://user-images.githubusercontent.com/85500650/161136370-747a36c7-c89d-46e9-8bf1-872891fc443f.PNG)
+
 
 This project use hardhat, react, ethers js and for fancy, styled-components
 
