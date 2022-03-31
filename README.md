@@ -11,10 +11,11 @@ Before start, you need to install some dependencies
 4. `Create a sample project`, the sample project will ask you to install hardhat-waffle and hardhat-ethers, which makes Hardhat compatible with tests built with Waffle.
 5. You'll install dotenv `npm i dotenv` to keep your private keys safe, certify that your .gitgnore have dotenv included.
 6. Install `npm install --save-dev @nomiclabs/hardhat-etherscan` to verify your contract after deploying it on the test net.
-7. Copy the lines inside `hardhat.config.js` in this repository.
-8. Copy the lines inside `scripts/deploy.js`
-9. if everything is installed correctly, and you have copied the ``nft.sol`` file, you can run ``npx hardhat run scripts/deploy.js`` or ``npx hardhat run scripts/deploy.js --network rinkeby``if you want to do on testnet
-10. To verify on testnet use ``npx hardhat verify ADDRESS_OF_CONTRACT --network rinkeby "MaxSupply of collection" "number that started  the nft collection"
+7. Install this libraries ``npm install @1001-digital/erc721-extensions`` and ``npm install @openzeppelin/contracts``
+8. Copy the lines inside `hardhat.config.js` in this repository.
+9. Copy the lines inside `scripts/deploy.js`
+10. if everything is installed correctly, and you have copied the ``nft.sol`` file, you can run ``npx hardhat run scripts/deploy.js`` or ``npx hardhat run scripts/deploy.js --network rinkeby``if you want to do on testnet
+11. To verify on testnet use ``npx hardhat verify ADDRESS_OF_CONTRACT --network rinkeby "MaxSupply of collection" "number that started  the nft collection"
 
 # React
 1. `npx create-react-app my-app`
