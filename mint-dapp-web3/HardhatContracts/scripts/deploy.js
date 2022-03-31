@@ -1,7 +1,7 @@
 const main = async () => {
     
-    const rea1Project = await hre.ethers.getContractFactory('Rea1FinalProject');
-    const contract = await rea1Project.deploy(30, 1);
+    const rea1Project = await hre.ethers.getContractFactory('TheRea1Final');
+    const contract = await rea1Project.deploy(100, 1);
     await contract.deployed();
     console.log("Contract Address: ", contract.address);
 };

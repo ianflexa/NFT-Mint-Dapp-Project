@@ -4,7 +4,7 @@ require("@nomiclabs/hardhat-etherscan");
 
 
  module.exports = {
-  solidity: '0.8.4',
+  solidity: '0.8.2',
   networks: {
     rinkeby: {
       url: process.env.STAGING_ALCHEMY_KEY, 

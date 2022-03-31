@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.4;
+pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@1001-digital/erc721-extensions/contracts/RandomlyAssigned.sol";
 
 
-contract Rea1FinalProject is ERC721, Ownable, RandomlyAssigned {
+contract TheRea1Final is ERC721, Ownable, RandomlyAssigned {
   using Strings for uint256;
   
   uint256 public currentSupply = 0;
   //limite de nft por address TESTESSS
   uint256 public nftPerAddressLimit = 5;
   //custo de ether por address
-  uint256 public cost = 0.01 ether;
+  uint256 public cost = 0.001 ether;
   
-  string public baseURI = "ipfs://QmaUY9EoFfJfgU3fa47Y1uF7xxeWJgQGM5HqAXsoTKuTds/";
+  string public baseURI = "ipfs://QmQsCEXXM7snYhde8QWuiVaQaXcAep82PbAi7VTSoKcxF1/";
 
   //salva a quantidade de nfts por address
   mapping(address => uint256) public addressMintedBalance;
