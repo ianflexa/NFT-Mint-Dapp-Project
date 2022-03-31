@@ -1,0 +1,5 @@
+STAGING_ALCHEMY_KEY=
+PRIVATE_KEY= 
+STAGING_ETHERSCAN_KEY = 
+
+remove "dot" and put a "."  to work
