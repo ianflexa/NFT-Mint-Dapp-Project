@@ -1,6 +1,13 @@
 # NFT-Mint-Dapp-Project
 A mint web3 page for an nft collection I created called Rea1
 
+# PREVIEW
+![preview](https://user-images.githubusercontent.com/85500650/161134723-2dc19bda-a6b9-4664-967f-6cc7353638e8.PNG)
+
+
+![preview1](https://user-images.githubusercontent.com/85500650/161134749-71274231-a256-4630-a787-6b94c53ed98d.PNG)
+
+
 This project use hardhat, react, ethers js and for fancy, styled-components
 
 Before start, you need to install some dependencies
